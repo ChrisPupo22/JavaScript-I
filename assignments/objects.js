@@ -114,3 +114,30 @@ console.log(antonietta.multiply(3,4));
 // Have the child speak
 
 // Have the grandchild speak
+
+const parent = {
+  name: "susan",
+  age: 70,
+  speak: "hello, my name is ",
+    
+  child: {
+      name: "George", 
+      age: 50,
+      speak: "hello, my name is ",
+  
+      grandchild: {
+        name: "Sam",
+        age: 30, 
+        speak: "hello, my name is ",
+
+      }
+    }
+};
+
+console.log(parent.name);
+console.log(parent.child.age);
+console.log(parent.child.grandchild.name);
+console.log(parent.child.grandchild.age);
+console.log(parent.speak + ' '+ parent.name);
+console.log(parent.child.speak + ' '+ parent.child.name);
+console.log(parent.child.grandchild.speak + ' ' + parent.child.grandchild.name);
