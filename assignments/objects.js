@@ -140,4 +140,6 @@ console.log(parent.child.grandchild.name);
 console.log(parent.child.grandchild.age);
 console.log(parent.speak + ' '+ parent.name);
 console.log(parent.child.speak + ' '+ parent.child.name);
-console.log(parent.child.grandchild.speak + ' ' + parent.child.grandchild.name);
+console.log(parent.child.grandchild.speak + ' ' + parent.child.grandchild.name); 
+
+57575757
